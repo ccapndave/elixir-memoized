@@ -2,6 +2,8 @@ defmodule Memoized do
   @moduledoc """
   Mark functions as memoizable within the current process.
 
+  ## Example
+
       use Memoized
 
       defmemoized get_children(%Group{} = group) do
